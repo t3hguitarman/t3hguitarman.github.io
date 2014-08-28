@@ -12,6 +12,7 @@ body{
 	height: auto;
 	}
 #content{
+	background-color: #000000;
 	}
 	
 #text{
@@ -20,14 +21,14 @@ body{
  	top:20px;
 	width: 875px;
 	font-size: 14px;
-	color: #000000;
+	color: #C0C0C0;
 	}
 #text h1{	
 	font-family: 'Impact';
 	background-size:auto;
 	width: auto;
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 30px;
 	color: #000000;
 	background-color: #ffffff;
 	padding-left: 10px;
@@ -36,581 +37,42 @@ body{
 	margin-top: 0px;
 	}
 #text h2{
-
-	width: auto;
-	font-weight: bold;
-	font-size: 16px;
-	color: #ed7d31;
-	padding-left: 10px;
-}
-#text h3{	
-font-family: 'AldotheApache',helvetica, arial;
+font-family: 'Impact';
 	background-size:auto;
 	width: auto;
 	font-weight: bold;
-	font-size: 30px;
-	color: white;
-	background-color: #ed7d31;
+	font-size: 25px;
+	color: #000000;
+	background-color: #ffffff;
 	padding-left: 10px;
 	padding-bottom:2px;
 	padding-top:2px;
 	margin-top: 0px;
 	}
-#text h4{	
-	font-family: 'AldotheApache',helvetica, arial;
 
-	width: auto;
-	font-weight: bold;
-	font-size: 20px;
-	color: white;
-	background-color: #900;
-	padding-left: 10px;
-	padding-bottom:2px;
-	padding-top:2px;
-	margin-top: 0px;
-	}
-#text h5{	
-font-family: 'AldotheApache',helvetica, arial;
-background: url("/images/contactbar.gif");
-	background-size:auto;
-	width: auto;
-	font-weight: bold;
-	font-size: 24px;
-	color: white;
-	background-color: #900;
-	padding-left: 10px;
-
-	padding-top:2px;
-	margin-top: 0px;
-	}
 p{
-	padding: 0px 10px 0px 10px;
-}
-
-#topboxnew{
-text-align: left;
-	top: 0px;
-	float: left;
-	width: auto;
-	height: auto;
+	color: #C0C0C0;
 	}
 
-
-#topimage{
-
-text-align: left;
-margin-left: 50px;
-
-	}
-
-	
 
 /*
 /layout stuff
 */
 #leftbox{
 	float: left;
-	width: 300px;
+	width: 560px;
 	height: auto;
-	background-color: #aaa;
+	background-color: #000000;
 	margin-bottom:15px;
 	padding-bottom:10px;
 	}
 	
-#rightboxcol1{
-	float: right;
-	width: 280px;
-	height: auto;
-	background-color: #aaa;
-	margin-bottom:0px;
-	padding-bottom:10px;
-	}
-#rightboxcol2{
-	float: right;
-	width: 280px;
-	height: auto;
-	background-color: #aaa;
-	margin-bottom:0px;
-	padding-bottom:10px;
-	}
-
-	
-
-#picbox{
-	float: right;
-	width: 560px;
-	height: 320px;
-	margin-bottom:0px;
-	}
-
-#albumart{
-	float: left;
-	width: 226px;
-	height: 199px;
-	margin-right:10px;
-	}
-
-#picboxaudition{
-	float:right;
-	width:560px;
-	margin-top:0px;
-}
-
-#picboxnew{
-	float: right;
-	width: 560px;
-	height: 312px;
-	margin-bottom:0px;
-	}
-
-#picboxrock{
-	float: right;
-	width: 560px;
-	height: 362px;
-	margin-bottom:15px;
-	}
-
 #rightbox{
 	top: 0px;
 	float: right;
-	width: 560px;
+	width: 300px;
 	height: auto;
-	background-color: #aaa;
-	
-	}
-#centerbox{
-	position:static;
-	float: left;
-	width: 875px;
-	height: auto;
-	background-color: #aaa;
-	left: 1px;
+background-color: #000000;
 	
 	}
 
-#centerboxcol1{
-	float: left;
-	width: 437px;
-	height: auto;
-	background-color: #aaa;
-	margin-bottom:0px;
-	padding-bottom:10px;
-	}
-#centerboxcdlist{
-	
-	float: left;
-	width: 250px;
-	height: auto;
-	background-color: #aaa;
-	margin-bottom:0px;
-	padding-bottom:0px;
-	}
-
-#centerboxcdinfo{
-	float: left;
-	width: 625px;
-	height: 198px;
-	background-color: #aaa;
-	margin-bottom:0px;
-	padding-bottom:10px;
-	}
-
-#tour{
-	margin: auto;
-	border-style: none;
-}
-
-#pup {
-  position:absolute;
-  z-index:200; /* aaaalways on top*/
-  padding: 3px;
-  margin-left: 10px;
-  margin-top: 5px;
-  width: 250px;
-  border: 1px solid black;
-  background-color: #777;
-  color: white;
-  font-size: 0.95em;
-}
-
-
-
-/* The containing box for the gallery. */
-#container {
-    position:relative; 
-    width:770px; 
-    height:396px; 
-    margin:20px auto 0 auto; 
-    border:1px solid #aaa; 
-    }
-/* Removing the list bullets and indentation */
-#container ul {
-    padding:0; 
-    margin:5px; 
-    float:right;
-	width:198px; 
-    height:386px;
-    list-style-type:none; 
-    }
-#container li {
-    float:left;
-    }
-/* Remove the images and text from sight */
-#container a.gallery span {
-    position:absolute; 
-    width:1px; 
-    height:1px; 
-    top:5px; 
-    left:5px; 
-    overflow:hidden; 
-    background:#fff;
-    }
-	
-
-
-/* Adding the thumbnail images */
-#container a.gallery, #container a.gallery:visited {
-    display:block; 
-    color:#000; 
-    text-decoration:none; 
-    border:1px solid #000; 
-    margin:1px 2px 1px 2px; 
-    text-align:left; 
-    cursor:default;
-    }
-#container a.slidea {
-    background:url(../images/benedictthumb.jpg); 
-    height:93px; 
-    width:60px;
-    }
-#container a.slideb {
-    background:url(../images/box1thumb.jpg); 
-    height:93px; 
-    width:60px;
-    }
-#container a.slidec {
-    background:url(../images/offspringthumb.jpg); 
-    height:93px; 
-    width:60px;
-    }
-#container a.slided {
-    background:url(../images/box2thumb.jpg); 
-    height:60px; 
-    width:93px;
-    }
-* html #container a.slided {
-    width:91px; 
-    w\idth:93px;
-    }
-#container a.slidee {
-    background:url(../images/starkthumb.jpg); 
-    height:60px; 
-    width:93px;
-    }
-#container a.slidef {
-    background:url(../images/targaryenthumb.jpg); 
-    height:60px; 
-    width:93px;
-    }
-* html #container a.slidef {
-    width:91px; 
-    w\idth:93px;
-    }
-#container a.slideg {
-    background:url(../images/p7_t.jpg); 
-    height:60px; 
-    width:93px;
-    }
-#container a.slideh {
-    background:url(../images/p8_t.jpg); 
-    height:93px; 
-    width:60px;
-    }
-#container a.slidei {
-    background:url(../images/p9_t.jpg); 
-    height:93px; 
-    width:60px;
-    }
-#container a.slidej {
-    background:url(../images/p10_t.jpg); 
-    height:93px; 
-    width:60px;
-    }
-#container a.slidek {
-    background:url(../images/p11_t.jpg); 
-    height:60px; 
-    width:93px;
-    }
-* html #container a.slidek {
-    width:91px; 
-    w\idth:93px;
-    }
-#container a.slidel {
-    background:url(../images/p12_t.jpg); 
-    height:60px; 
-    width:93px;
-    }
-	
-	/* change the thumbnail border color */
-#container a.gallery:hover {
-    border:1px solid #fff; 
-    }
-	
-	/* styling the :hover span */
-#container a.gallery:hover span {
-    position:absolute; 
-    width:472px; 
-    height:372px; 
-    top:10px; 
-    left:25px; 
-    color:#000; 
-    background:#fff;
-    }
-	
-	#container a.gallery:hover img {
-    border:1px solid #fff; 
-    float:left; 
-    margin-right:5px;
-    }
-	
-	#container a.slideb:hover img, #container a.slidei:hover img {
-    float:right;
-    }
-/******************
-/IMAGES
-/*****************/
-#images-box {
-    /* The total width of the image-box, mainly for centering */
-    width: 875px;
-    margin: 0px auto;
-    position: relative;
-    top: 70px;
-	bottom: 70px;
-}
- 
-.image-lightbox img {
-    /* Inherit the width and height from the parent element */
-    width: inherit;
-    height: inherit;
-}
- 
-.holder {
-    /* The width and height, you can change these */
-    width: 250px;
-    height: 166px;
-    /* Float left, so everything aligns right */
-    float: left;
-    margin: 0 20px 0 0;
-}
- 
-.image-lightbox {
-    /* Inherit width and height from the .holder */
-    width: inherit;
-    height: inherit;
-    padding: 10px;
-    /* Box shadow */
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-    background: #fff;
-    border-radius: 5px;
-    /* Position absolutely so we can zoom it out later */
-    position: absolute;
-    top: 0;
-    font-family: Arial, sans-serif;
-    /* Transitions to provide some eye candy */
-    -webkit-transition: all ease-in 0.5s;
-    -moz-transition: all ease-in 0.5s;
-    -ms-transition: all ease-in 0.5s;
-    -o-transition: all ease-in 0.5s;
-}
- 
-.image-lightbox span {
-    display: none;
-}
- 
-.image-lightbox .expand {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
- 
-.image-lightbox .close {
-    position: absolute;
-    width: 20px; height: 20px;
-    right: 20px; top: 20px;
-}
- 
-.image-lightbox .close a {
-    height: auto; width: auto;
-    padding: 5px 10px;
-    color: #fff;
-    text-decoration: none;
-    background: #22272c;
-    box-shadow: inset 0px 24px 20px -15px rgba(255, 255, 255, 0.1), inset 0px 0px 10px rgba(0,0,0,0.4), 0px 0px 30px rgba(255,255,255,0.4);
-    border-radius: 5px;
-    font-weight: bold;
-    float: right;
-}
- 
-.close a:hover {
-    box-shadow: inset 0px -24px 20px -15px rgba(255, 255, 255, 0.01), inset 0px 0px 10px rgba(0,0,0,0.4), 0px 0px 20px rgba(255,255,255,0.4);
-}
- 
-div[id^=image]:target {
-    width: 450px;
-    height: 300px;
-    z-index: 5000;
-    top: 50px;
-    left: 200px;
-}
-div[id^=image]:target .close {
-    display: block;
-}
- 
-div[id^=image]:target .expand {
-    display: none;
-}
- 
-div#image-1:target, div#image-2:target, div#image-3:target { left: 200px; }
- 
-div#image-1 { left: 0; }
-div#image-2 { left: 290px; }
-div#image-3 { left: 580px; }
-
-
-/******************
-/DateTime Stamp formatting
-/*****************/
-.date{
-	color:#ffc000;
-	font-size:medium;
-	width:60px;
-	left:10px;
-	top:0px;
-	position:relative;
-
-	
-}
-
-
-div.datetime{
-float:left;
-display:block;
-padding:0;
-margin:0px 0px 0px 0px; /*was 12,2,2,40*/
-width:3.1em;
-min-width:48px;
-color:#aaa;/*was 2f4765*/
-background:#aaa url("images/corner.gif") no-repeat right bottom;/*was fefefe */
-text-align:center;
-font-size:small;
-}
-div.datetime div.top p{
-background:url("images/caltop1b.gif") no-repeat 50% 0;
-margin:-9px auto 0 auto;
-padding-top:11px;
-padding-bottom:0;
-padding-left:1px;
-text-align:center;
-font:bold x-small/100% Georgia, "New Century Schoolbook", "Book Antiqua", "Times New Roman", serif;
-letter-spacing:0.12em;
-text-transform:uppercase;
-}
-.datetime .top{
-color:#fefefe;
-background-color:#900;/*2f4765*/
-margin:0 6px 0 0;
-padding:6px 0 1px 0;
-line-height:100%;
-border-top:1px solid #283c56;
-border-bottom:1px solid #316640;
-border-left:1px solid #283c56;
-}
-.datetime div.btm{
-color:#365174;
-background:transparent;
-border-left:1px solid #a1c6ac;
-margin:0 10px 5px 0;padding:0 0 1px 0;
-}
-.datetime p.day, .datetime p.mon, .datetime p.yr{
-margin:0 3px 0 8px;text-align:center;
-}
-.datetime p.day{
-color:#365174;
-background-color:transparent;
-padding:0 0 1px 0;
-font:bold 1.5em/98% Georgia, "New Century Schoolbook", "Book Antiqua", "Times New Roman", serif;
-letter-spacing:0.13em;
-}
-.datetime p.mon, .datetime p.yr{
-color:#283d57;
-background-color:transparent;
-}
-.datetime p.mon{
-padding:0;
-font:x-small/135% Verdana,Geneva,Arial,Helvetica,sans-serif;
-letter-spacing:normal;
-line-height:100%;
-}
-.datetime p.yr{
-margin-right:14px;
-margin-left:5px;
-padding:0 4px 0 0;
-font:x-small/110% Verdana,Geneva,Arial,Helvetica,sans-serif;
-letter-spacing:0.05em;
-}
-
-/*********************
-/Style the member object
-/********************/
-#memberlist{
-	/*position:relative;*/
-}
-
-.member{
-clear: top;
-height: 245px;
-}
-.memberpic{
-float:left;
-margin: 0px 15px 0px 10px;
-height: 200px;
-width: 150px;
-}
-.odd{
-	position:static;
-	width:430px;
-	/*float:left;*/
-	/*border-top: 3px groove #FFFFFF;
-	background-color:#C0C0C0;*/
-}
-.even{
-	position:static;
-	width:430px;
-	/*border-top: 3px groove #CCCCCC;
-	background-color:#FFFFFF;*/
-}
-
-
-
-/***************
- /Style the footer
- /***************/
-#footer{
-	position:relative;
-	width: auto;
-	font-size: 12px;
-	height: 38px;
-	color: white;
-	background-color: #ed7d31;
-	text-align: center;
-	margin-top: 20px;
-
-}
-
-#footer a{
-	color: white;
-	
-}
- 
